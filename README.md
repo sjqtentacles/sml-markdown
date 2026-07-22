@@ -1,5 +1,7 @@
 # sml-markdown
 
+[![CI](https://github.com/sjqtentacles/sml-markdown/actions/workflows/ci.yml/badge.svg)](https://github.com/sjqtentacles/sml-markdown/actions/workflows/ci.yml)
+
 A CommonMark-subset Markdown parser in pure Standard ML. Parses Markdown into
 an [`sml-html`](https://github.com/sjqtentacles/sml-html) `Html.node` tree (so
 output is escaped safe-by-default), with a convenience that renders straight to
